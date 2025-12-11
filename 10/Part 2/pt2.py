@@ -67,7 +67,6 @@ with open("10/Part 1/in.txt", "r") as f:
         if len(vectors) == 0:
             # Simple case where there is one unique solution
             rtn += sum(b)
-            print(int(sum(b)))
         else:
             # Multiple degrees of freedom (1-3)
             # We just do 3 explicit cases
